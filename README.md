@@ -98,7 +98,8 @@ it has a good library for serialize & deserialize called **Serde** and **Chrono*
 
 [Hilt](https://dagger.dev/hilt/) I use Hilt for dependcy injection in Android , it is built on top of Dagger , i have no experience in Dagger before but i know in Hilt you write less some code , you dont have to create Dagger Component yourself
 
-[ObjectBox](https://objectbox.io) i still did not use Room or Realm so i decided jump to ObjectBox , the good thing about ObjectBox is you can use it on other langs like Swift, C, C++, Go, Dart , and compared to Room and Realm its has more performance , also good coding style
+~~[ObjectBox](https://objectbox.io) i still did not use Room or Realm so i decided jump to ObjectBox , the good thing about ObjectBox is you can use it on other langs like Swift, C, C++, Go, Dart , and compared to Room and Realm its has more performance , also good coding style~~
+Updated 3 Jul 2022: Goodbye Objectbox , i switched to Android Room becasue of lacks support for updating with newer version of AGP +7.2, late response to issues and also have less community compared with Room , Room also offical supported by Google for Android
 
 For API calling my choice is Okhttp and Retrofit2 and Moshi for serialize and deserialize , for image loading and caching i suggest you [Coil](https://coil-kt.github.io/coil/) over Glide , Glide seems abandoned unlike Coil that have active community
 
